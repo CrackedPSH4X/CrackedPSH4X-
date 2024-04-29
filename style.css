@@ -1,0 +1,169 @@
+/* PAGE TOP */
+
+#pagetop {
+    width: 980px;
+    height: 150px;
+    background: #353a3a;
+    margin-left: -8px;
+    margin-top: -8px;
+    position: absolute;
+}
+
+#topfade {
+    position: absolute;
+    z-index: 10;
+    width: 980px;
+    height: 150px;
+    margin-top: 137px;
+    background: linear-gradient(to bottom, #353a3a, rgba(53, 58, 58, 0));
+}
+
+.logotext {
+    height: 80%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* PAGE MID */
+
+#pagemid {
+    
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -8px;
+    width: 980px;
+    height: 1800px;
+    background: black;
+}
+
+.main-bg {
+    height: 100%;
+    width: 100%;
+    opacity: 65%;
+}
+
+.intro {
+    position: absolute;
+    font-size: 46px;
+    color: white;
+    margin-top: 300px;
+    margin-left: 87px;
+    text-shadow: 4px 6px 13px rgba(0, 175, 219, 1);
+}
+
+#text-box {
+  position: absolute;
+  width: 730px;
+  height: 345px;
+  padding: 50px;
+  padding-bottom: 70px;
+  margin-top: 420px;
+  margin-left: 67px;
+  background: white;
+  opacity: 60%;
+  border-radius: 20px;
+}
+
+.features {
+    position: absolute;
+    font-size: 50px;
+    margin-top: 450px;
+    margin-left: 80px;
+}
+
+#text-box2 {
+  position: absolute;
+  width: 730px;
+  height: 345px;
+  padding: 50px;
+  padding-bottom: 70px;
+  margin-top: 1230px;
+  margin-left: 67px;
+  background: white;
+  opacity: 60%;
+  border-radius: 20px; 
+}
+
+.example-img {
+    position: absolute;
+    width: 730px;
+    margin-top: 1320px;
+    margin-left: 116px;
+    border-radius: 25px;
+}
+
+.example-text {
+    position: absolute;
+    top: 1205px;
+    left: -20px;
+    font-size: 50px;
+    margin-left: 280px;
+    color: orange;
+    font-weight: bold;
+    -webkit-text-stroke:1px black;
+    text-shadow: 0px 1px 8px rgba(0, 0, 0, 1);
+}
+
+.buy-btn {
+  position: absolute;
+  text-decoration: none;
+  top: 1005px;
+  left: 283px;
+  background-color: orange;
+  color: black;
+  padding: 35px 60px;
+  border: none;
+  border-radius: 20px;
+  font-size: 55px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+#pagebottom{
+    position: absolute;
+    width: 980px;
+    height: 150px;
+    background: #353a3a;
+    top: 1935px;
+    left: 0;
+    
+}
+
+#bottomfade {
+    position: absolute;
+    z-index: 10;
+    width: 980px;
+    height: 150px;
+    top: 1786px;
+    left: 0px;
+    background: linear-gradient(to top, #353a3a, rgba(53, 58, 58, 0));
+}
+
+.copy1 {
+    position: absolute;
+    font-size: 30px;
+    left: 180px;
+    top: -20px;
+    color: white;
+}
+
+.copy2 {
+    position: absolute;
+    font-size: 30px;
+    left: 420px;
+    top: 15px;
+    color: white;
+}
+
+.copy3 {
+    position: absolute;
+    font-size: 30px;
+    left: 210px;
+    top: 65px;
+    color: white;
+}
